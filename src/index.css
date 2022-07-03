@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #232340;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    max-width: 900px;
+    padding-inline: 1rem ;
+    margin: auto;
+}
+
+.loading{
+    text-align: center;
+    font-size: 4rem;
+    color: orangered;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between ;
+    padding: 1.5rem 1rem;
+}
+
+nav h1{
+    color: orange;
+}
+
+.link{
+    display: inline-block;
+    padding: .5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.active{
+    color: tomato;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card-title{
+    text-align: center;
+    color: rgb(226, 226, 89);
+}
+
+.region-icons{
+    color: aliceblue;
+    font-size: 10rem;
+}
+
+@media (max-width:600px){
+    .region-icons{
+        font-size: 7rem;
+    }
+}
+
+.country-icon{
+    color: orangered;
+    font-size: 1.4rem;
+}
+
+.country-card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ img{  
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.country-card-title{
+    color: rgb(247, 206, 153);
+    font-size: 1.7rem;
+    height: 125px;
+    text-align: center;
+}
+
+article{
+    display: grid;
+    gap: 1.5rem;
+    place-items: center;
+    text-align: center;
+}
+.info-container{
+    display: grid;
+    gap: .5rem;
+}
+
+/* ABOUT */
+
+.about{
+    text-align: center;
+}
+
+.about h1 {
+    color: orange;
+    margin-bottom: .7rem;
+}
+
+.about main {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.about h3{
+    color: rgb(130, 219, 27);
+    padding-bottom: .3rem;
+    border-bottom: 1px solid rgb(130, 219, 27);
+    width: max-content;
+    margin: 0 auto 1rem;
+}
+
+.about ul {
+    margin-bottom: 2rem;
+    list-style-type: none;
+}
+
+.about li {
+    padding: .3rem;
+}
+
+.about a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.about a:hover{
+    color: orangered;
+}
+
