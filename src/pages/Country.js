@@ -34,7 +34,7 @@ export const Country = ({countries}) => {
             </div>
             <div>
                 <FaAmericanSignLanguageInterpreting className='country-icon'/>
-                <p>{languages ? Object.values(languages) : 'N/A'}</p>
+                <p>{languages ? Object.values(languages).join(' / ') : 'N/A'}</p>
             </div>
             <div>
                 <FaMoneyBillAlt className='country-icon'/>
